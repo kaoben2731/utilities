@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Matlab
+GenericName=Matlab R2019b
+Comment=Matlab:The Language of Technical Computing
+Exec=sh /usr/local/MATLAB/R2019b/bin/matlab -desktop
+Icon=/usr/local/MATLAB/Matlab.png
+Terminal=false
+Categories=Development;Matlab;
