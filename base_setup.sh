@@ -7,4 +7,4 @@ sudo apt-get -y upgrade
 sudo apt install -y vim
 sudo apt-get install -y htop
 sudo apt-get install -y curl
-
+sudo apt-get install -y net-tools
