@@ -13,7 +13,7 @@ sudo apt-get install -y tmux
 sudo apt-get install -y openssh-server
 
 # set aliase
-alias watchnv='watch -n 1 -d nvidia-smi'
+echo "alias watchnv='watch -n 1 -d nvidia-smi'" >> ~/.bashrc
 
 # turn on SSH
 sudo systemctl status ssh
