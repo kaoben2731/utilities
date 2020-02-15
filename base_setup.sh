@@ -11,6 +11,11 @@ sudo apt-get install -y net-tools
 sudo apt-get install -y zip unzip
 sudo apt-get install -y tmux
 sudo apt-get install -y openssh-server
+
+# set aliase
+alias watchnv='watch -n 1 -d nvidia-smi'
+
+# turn on SSH
 sudo systemctl status ssh
 sudo ufw allow ssh
 
