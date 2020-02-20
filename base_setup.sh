@@ -14,6 +14,7 @@ sudo apt-get install -y openssh-server
 
 # set aliase
 echo "alias watchnv='watch -n 1 -d nvidia-smi'" >> ~/.bashrc
+echo "alias lsl='ls -lh'" >> ~/.bashrc
 
 # turn on SSH
 sudo systemctl status ssh
