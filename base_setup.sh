@@ -16,6 +16,9 @@ sudo apt-get install -y openssh-server
 echo "alias watchnv='watch -n 1 -d nvidia-smi'" >> ~/.bashrc
 echo "alias lsl='ls -lh'" >> ~/.bashrc
 
+# copy the script
+sudo cp tmuxmat.sh /tmuxmat.sh
+
 # turn on SSH
 sudo systemctl status ssh
 sudo ufw allow ssh
