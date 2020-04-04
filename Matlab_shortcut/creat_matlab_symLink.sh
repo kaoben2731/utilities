@@ -1,3 +1,6 @@
 #!/bin/bash
-
-sudo ln -s /usr/local/MATLAB/R2019b/bin/matlab /matlab
+if [ $# == 1 ]; then
+	sudo ln -s /usr/local/MATLAB/R$1/bin/matlab /matlab
+else
+	echo "Please specify the version of Matlab (without R)"
+fi

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Matlab
+GenericName=Matlab R2020a
+Comment=Matlab:The Language of Technical Computing
+Exec=sh /usr/local/MATLAB/R2020a/bin/matlab -desktop
+Icon=/usr/local/MATLAB/Matlab.png
+Terminal=false
+Categories=Development;Matlab;
